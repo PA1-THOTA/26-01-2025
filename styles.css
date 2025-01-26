@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+.cont{
+    display: inline-grid;
+    grid-template-columns: 130px 130px 130px;
+    grid-template-rows: 50px 100px 100px 50px;
+    border: 1px solid;
+    margin: 100px;
+}
+
+.cell{
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
